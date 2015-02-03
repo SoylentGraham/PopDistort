@@ -4,27 +4,19 @@
 #include <TJob.h>
 #include <TChannel.h>
 
+template <> template<>
+bool SoyData_Impl<std::string>::Encode(const SoyData_Impl<vec2f>& Data);
 
 
 
-class TPopFeatures : public TJobHandler, public TChannelManager
+class TPopDistort : public TJobHandler, public TChannelManager
 {
 public:
-	TPopFeatures();
+	TPopDistort();
 	
 	virtual void	AddChannel(std::shared_ptr<TChannel> Channel) override;
 
-	void			OnExit(TJobAndChannel& JobAndChannel);
-	void			OnGetFeature(TJobAndChannel& JobAndChannel);
-	void			OnFindFeature(TJobAndChannel& JobAndChannel);
-	void			OnTrackFeatures(TJobAndChannel& JobAndChannel);
-	void			OnFindInterestingFeatures(TJobAndChannel& JobAndChannel);
-	void			OnNewFrame(TJobAndChannel& JobAndChannel);
-	
-	void			OnSendPing(TJobAndChannel& JobAndChannel);
-	void			OnRePing(TJobAndChannel& JobAndChannel);
-
-	void			OnDecode(TJobAndChannel& JobAndChannel);
+	void			OnFindHole(TJobAndChannel& JobAndChannel);
 	
 public:
 	Soy::Platform::TConsoleApp	mConsoleApp;

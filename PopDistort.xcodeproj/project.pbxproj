@@ -10,6 +10,7 @@
 		FB50C04F1A6ABD480011A9D9 /* memheap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB50C04D1A6ABD480011A9D9 /* memheap.cpp */; };
 		FB50C0521A6AC0980011A9D9 /* TFeatureBinRing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB50C0501A6AC0980011A9D9 /* TFeatureBinRing.cpp */; };
 		FB6650CD1A56FD8600DF0A12 /* SoyDebug.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB6650CC1A56FD8600DF0A12 /* SoyDebug.mm */; };
+		FB79EB6C1A7BE8CE003FF882 /* frame.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB79EB6B1A7BE8C8003FF882 /* frame.png */; };
 		FB8A06531A2E5A7C0099596C /* SoyApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB8A06241A2E5A7C0099596C /* SoyApp.cpp */; };
 		FB8A06541A2E5A7C0099596C /* SoyArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB8A06261A2E5A7C0099596C /* SoyArray.cpp */; };
 		FB8A06551A2E5A7C0099596C /* SoyDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB8A06271A2E5A7C0099596C /* SoyDebug.cpp */; };
@@ -74,6 +75,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				FB79EB6C1A7BE8CE003FF882 /* frame.png in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +91,9 @@
 		FB50C0511A6AC0980011A9D9 /* TFeatureBinRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFeatureBinRing.h; path = src/TFeatureBinRing.h; sourceTree = "<group>"; };
 		FB5702CB1A5FDC9700449FF3 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = src/stb/stb_image.h; sourceTree = "<group>"; };
 		FB6650CC1A56FD8600DF0A12 /* SoyDebug.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SoyDebug.mm; path = src/SoyDebug.mm; sourceTree = "<group>"; };
+		FB79EB691A7BE800003FF882 /* websrc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = websrc; sourceTree = "<group>"; };
+		FB79EB6B1A7BE8C8003FF882 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame.png; path = websrc/frame.png; sourceTree = "<group>"; };
+		FB79EB6D1A7C298F003FF882 /* ofxSoylent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxSoylent.h; path = src/ofxSoylent.h; sourceTree = "<group>"; };
 		FB8A05931A2E54730099596C /* PopDistort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PopDistort; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8A05A61A2E57700099596C /* PopApp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = PopApp.xcconfig; path = ../NewChromantics/PopTrack/PopApp.xcconfig; sourceTree = SOURCE_ROOT; };
 		FB8A06231A2E5A7C0099596C /* SortArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SortArray.h; path = ../ofxSoylent/src/SortArray.h; sourceTree = "<group>"; };
@@ -104,7 +109,6 @@
 		FB8A062D1A2E5A7C0099596C /* SoyFilesytem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyFilesytem.h; path = ../ofxSoylent/src/SoyFilesytem.h; sourceTree = "<group>"; };
 		FB8A06301A2E5A7C0099596C /* SoyMemFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyMemFile.cpp; path = ../ofxSoylent/src/SoyMemFile.cpp; sourceTree = "<group>"; };
 		FB8A06311A2E5A7C0099596C /* SoyMemFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyMemFile.h; path = ../ofxSoylent/src/SoyMemFile.h; sourceTree = "<group>"; };
-		FB8A06381A2E5A7C0099596C /* SoyPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyPair.h; path = ../ofxSoylent/src/SoyPair.h; sourceTree = "<group>"; };
 		FB8A06391A2E5A7C0099596C /* SoyPixels.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyPixels.cpp; path = ../ofxSoylent/src/SoyPixels.cpp; sourceTree = "<group>"; };
 		FB8A063A1A2E5A7C0099596C /* SoyPixels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoyPixels.h; path = ../ofxSoylent/src/SoyPixels.h; sourceTree = "<group>"; };
 		FB8A063B1A2E5A7C0099596C /* SoyPng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoyPng.cpp; path = ../ofxSoylent/src/SoyPng.cpp; sourceTree = "<group>"; };
@@ -233,6 +237,14 @@
 			name = stb;
 			sourceTree = "<group>";
 		};
+		FB79EB6A1A7BE8B6003FF882 /* websrc */ = {
+			isa = PBXGroup;
+			children = (
+				FB79EB6B1A7BE8C8003FF882 /* frame.png */,
+			);
+			name = websrc;
+			sourceTree = "<group>";
+		};
 		FB8A058A1A2E54730099596C = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +256,8 @@
 				FB8A067B1A2E68C20099596C /* poplib */,
 				FB8A06221A2E5A280099596C /* soylib */,
 				FB8A05951A2E54730099596C /* src */,
+				FB79EB6A1A7BE8B6003FF882 /* websrc */,
+				FB79EB691A7BE800003FF882 /* websrc */,
 				FB8A05941A2E54730099596C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -279,6 +293,7 @@
 				FB8A06241A2E5A7C0099596C /* SoyApp.cpp */,
 				FB8A06251A2E5A7C0099596C /* SoyApp.h */,
 				FB8A06261A2E5A7C0099596C /* SoyArray.cpp */,
+				FB79EB6D1A7C298F003FF882 /* ofxSoylent.h */,
 				FB8A06271A2E5A7C0099596C /* SoyDebug.cpp */,
 				FB8A06281A2E5A7C0099596C /* SoyDebug.h */,
 				FB6650CC1A56FD8600DF0A12 /* SoyDebug.mm */,
@@ -289,7 +304,6 @@
 				FB8A062D1A2E5A7C0099596C /* SoyFilesytem.h */,
 				FB8A06301A2E5A7C0099596C /* SoyMemFile.cpp */,
 				FB8A06311A2E5A7C0099596C /* SoyMemFile.h */,
-				FB8A06381A2E5A7C0099596C /* SoyPair.h */,
 				FB8A06391A2E5A7C0099596C /* SoyPixels.cpp */,
 				FB8A063A1A2E5A7C0099596C /* SoyPixels.h */,
 				FB8A063B1A2E5A7C0099596C /* SoyPng.cpp */,
